@@ -1,4 +1,6 @@
 import ProfileImage from '../assets/nedoratic.jpg';
+import LinkedIn from '../assets/linkedin.svg';
+import GitHub from '../assets/github.svg';
 
 const DigitalBusinessCard = () => {
 	return (
@@ -15,10 +17,10 @@ const DigitalBusinessCard = () => {
 			</div>
 			<div className='card__footer'>
 				<a href='#' className='card__footer__link'>
-					Linkedin
+					<img src={LinkedIn} alt='LinkedIn Logo' width={30} />
 				</a>
 				<a href='#' className='card__footer__link'>
-					Github
+					<img src={GitHub} alt='GitHub Logo' width={30} />
 				</a>
 			</div>
 		</div>

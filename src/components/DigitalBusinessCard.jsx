@@ -1,7 +1,9 @@
+import ProfileImage from '../assets/nedoratic.jpg';
+
 const DigitalBusinessCard = () => {
 	return (
 		<div className='card'>
-			<img className='card__image' src='' alt='' />
+			<img className='card__image' src={ProfileImage} alt='Nedo Ratic' width={320} />
 			<div className='card__body'>
 				<h1 className='card__body__title'>Nedo Ratic</h1>
 				<h2 className='card__body__description'>Frontend Developer</h2>
